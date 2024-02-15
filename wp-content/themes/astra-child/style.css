@@ -110,11 +110,11 @@ body {
     top: 102px;
 }
 
-/* Formulaire COMMANDER */
+/* Page commander Formulaire COMMANDER label (texte) */
 #field_qh4icy_label, #field_lewpv_label, #field_l4ax3_label, #field_g47w7_label, #field_tiqre_label, #field_jw0br_label {
     font-size: 20px;
     font-weight: 400;
-    color: #ffffff;
+    color: #000000;
     margin-top: 20px;
 }
 
