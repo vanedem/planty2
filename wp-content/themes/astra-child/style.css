@@ -1,0 +1,174 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.6.0.1704367144
+Updated: 2024-01-04 11:19:04
+*/
+
+/* Tout le site */
+body {
+    background-color: #ffffff !important;
+    font-family: Syne;
+}
+
+/* Toutes pages logo header */
+#logo-nav {
+    width: 201px;
+    height: 19px;
+}
+
+/* Toutes pages bouton COMMANDER header */
+#btn-commander-nav {
+    width: 100%;
+    float: right;
+    height: 80px;
+    margin-right: -10px;
+}
+
+/* Page ACCUEIL canette */
+.attachment-full.size-full.wp-image-31 {
+    width: 100%;
+}
+
+/* Page ACCUEIL Feuille droite canette */
+.attachment-full.size-full.wp-image-20 {
+    width: 100%;
+    position: relative;
+    right: 300px;
+    top: 30px;
+}
+
+/* Page ACCUEIL Feuille gauche canette */
+.attachment-full.size-full.wp-image-21 {
+    width: 100%;
+    position: relative;
+    left: 300px;
+    top: 30px;
+}
+
+/* Page NOUS RENCOONTRER 4 images fruits */
+.img-fruits {
+    width: 394px;
+    height: 263px;
+}
+
+/* Page NOUS RENCOONTRER bouton COMMANDER */
+#btn-commander {
+    height: 55px;
+    width: 198px;
+}
+
+.wpr-button-text {
+    line-height: 36px;
+}
+
+.wpforms-required-label {
+    display: none;
+}
+
+#wpforms-780-field_0, #wpforms-780-field_1 {
+    width: 383px;
+    height: 71px;
+    margin: auto;
+}
+
+#wpforms-780-field_3 {
+    width: 383px;
+    margin: auto;
+}
+
+
+.attachment-large.size-large.wp-image-22 {
+    width: 147.32px;
+    height: 134.97px;
+    position: relative;
+    left: 240px;
+    top: -65px;
+}
+
+/* Page NOUS RENCONTRER fleur verte et rouge conteneur Nous rencontrer */
+.attachment-large.size-large.wp-image-19 {
+    width: 145.3px;
+    height: 150.26px;
+    position: relative;
+    left: 100px;
+    top: 40px;
+    transform: rotate(45deg);
+}
+
+/* Page NOUS RENCONTRER feuille verte conteneur l'équipe */
+.attachment-large.size-large.wp-image-21 {
+    width: 191.21px;
+    height: 219.08px;
+    position: relative;
+    right: 15px;
+    top: 102px;
+}
+
+/* Formulaire COMMANDER */
+#field_qh4icy_label, #field_lewpv_label, #field_l4ax3_label, #field_g47w7_label, #field_tiqre_label, #field_jw0br_label {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+.with_frm_style .frm_form_field.frm_html_container {
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+#field_qh4icy, #field_lewpv, #field_l4ax3, #field_g47w7, #field_tiqre, #field_jw0br {
+    width: 100%;
+    height: 71px;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+
+#wpforms-3137-field_0, #wpforms-3137-field_3, #wpforms-3137-field_1, #wpforms-3137-field_4, #wpforms-3137-field_7, #wpforms-3137-field_8 {
+    width: 383px;
+    height: 71px;
+}
+
+/* Page COMMANDER ligne blanche sépatrice formulaire */
+.ligne-vertical {
+    position: relative;
+    transform: rotate(90deg);
+    top: 478px;
+}
+
+/* Responsive TABLETTE */
+@media only screen and (min-width: 792px) and (max-width: 1024px) {  
+    /* Page ACCUEIL Feuille droite canette */
+    .attachment-full.size-full.wp-image-20 {
+
+        right: 190px;
+        top: -10px;
+    }
+    /* Page ACCUEIL Feuille gauche canette */
+    .attachment-full.size-full.wp-image-21 {
+
+        left: 190px;
+        top: -10px;
+    }
+}
+
+/* Responsive MOBILE */
+@media only screen and (min-width: 320px) and (max-width: 791px) {
+    /* Page ACCUEIL Feuille droite canette */
+    .attachment-full.size-full.wp-image-20 {
+        right: 150px;
+        top: -10px;
+    }
+    /* Page ACCUEIL Feuille gauche canette */
+    .attachment-full.size-full.wp-image-21 {
+        left: 150px;
+        top: -10px;
+    }
+}
